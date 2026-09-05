@@ -2,7 +2,7 @@
 
 // Variables
 var porros = 5; // var = variables mutables
-val coches = 7;   // val = variables read-only
+val octopus = 7;   // val = variables read-only
 
 porros= 8;
 println(porros);
@@ -17,3 +17,16 @@ fun main() {
 }
 
 main();
+
+// tipos basicos e inferencia de tipos
+// operaciones basicas: +=, -=, *=, /=, and %=
+val entero: Int = 10                     // Int
+val texto: String = "me pica el culo"    // String
+val decimal: Double = 3.14               // Double
+val numeroGrande: Long = 100_000_000L    // Long
+val booleano: Boolean = false            // Boolean
+val caracter: Char = '\n'                // Char
+
+// se requiere declarar el valor si inicias una variable
+var tetas: Int
+tetas = 3
